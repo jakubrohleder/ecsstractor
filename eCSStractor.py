@@ -266,7 +266,7 @@ class parser(HTMLParser):
 
 		ignore = sublime.load_settings('eCSStractor.sublime-settings').get('ignore', "")
 		ignore_regex = sublime.load_settings('eCSStractor.sublime-settings').get('ignore_regex', "")
-		attributes = sublime.load_settings('eCSStractor.sublime-settings').get('attributes', ["class"])
+		attributes = sublime.load_settings('eCSStractor.sublime-settings').get('attributes', ["class", "className"])
 
 		for name, value in attrs:
 

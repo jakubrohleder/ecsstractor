@@ -38,7 +38,7 @@ _Default: **true**_
 
 HTML node attributes from which class names should be extracted.
 
-_Default: **["class", 'className"]**_
+_Default: **["class", "className"]**_
 
 #### ignore
 
